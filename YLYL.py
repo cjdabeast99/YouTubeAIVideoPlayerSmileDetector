@@ -14,7 +14,13 @@ FACE_CASCADE = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_fronta
 # Function to fetch random funny shorts or related videos
 def fetch_youtube_shorts(query="funny shorts", related_video_id=None):
     humor_phrases = [
-        "cringe","dumb humor","meme"
+        "funny shorts", "dumb humor", "goofy sounds", "random laughs", "silly noises", 
+        "stupid jokes", "laughing like crazy", "ridiculous memes", "random funny stuff", "silly antics",
+        "brain rot", "dark humor", "funny animals", "unexpected sounds", "funny fails", "youtube poop",
+        "2024 memes", "awkward moments", "cringe comedy", "dad jokes", "slapstick humor", 
+        "hilarious pranks", "comedy gold", "absurd humor", "weirdly funny", "funny fails compilation",
+        "laugh till you drop", "unbelievable funny moments", "prank wars", "memes compilation", 
+        "ridiculous challenges", "funny dance moves", "laughing out loud", "laughing till you cry"
     ]
     
     if related_video_id:
